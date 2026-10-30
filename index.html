@@ -1,0 +1,476 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Home | Vaishnavi Shetty – MCA Student</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* Resume Section */
+.resume-section {
+    padding: 60px 0;
+}
+
+.resume-card {
+    background: linear-gradient(135deg, #eaf4ff, #f5f0ff);
+    border-radius: 18px;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+}
+
+.resume-content {
+    flex: 1;
+}
+
+.resume-label {
+    color: #287bb5;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.resume-content h2 {
+    color: #26364a;
+    margin: 12px 0;
+    font-size: 30px;
+}
+
+.resume-content p {
+    color: #536174;
+    line-height: 1.8;
+    max-width: 650px;
+}
+
+.resume-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: 20px 0;
+    color: #34445a;
+    font-size: 14px;
+}
+
+.resume-btn {
+    display: inline-block;
+    background: #287bb5;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background: #185b8b;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.resume-icon {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-paper {
+    background: white;
+    width: 115px;
+    height: 145px;
+    border-radius: 8px;
+    padding: 20px 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transform: rotate(5deg);
+}
+
+.resume-paper span {
+    display: block;
+    color: #287bb5;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.paper-line {
+    height: 5px;
+    background: #dce5ee;
+    margin: 9px 0;
+    border-radius: 5px;
+}
+
+.paper-line.short {
+    width: 60%;
+}
+
+@media (max-width: 650px) {
+    .resume-card {
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .resume-content h2 {
+        font-size: 24px;
+    }
+
+    .resume-icon {
+        align-self: center;
+    }
+
+    .resume-details {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+    <span>Student · MCA (Master of Computer Applications)</span>
+    <span>vaishnavi.mca.2025@gmail.com &nbsp;|&nbsp; +91 7338203724</span>
+</div>
+
+<header>
+<div class="wrap hrow">
+    <div class="brand">
+        <b>Vaishnavi Shetty</b>
+        <span>Student</span>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</div>
+</header>
+
+<main class="wrap" id="home">
+
+    <!-- HOME SECTION -->
+    <div class="hero">
+        <div>
+            <div class="eyebrow">Welcome to my academic profile</div>
+
+            <h1>Vaishnavi Shetty</h1>
+
+            <p>
+                <b>MCA Student, Poornaprajna Institute of Management, Udupi</b>
+            </p>
+
+            <p class="lead">
+                Aspiring software developer pursuing a Master of Computer
+                Applications, with interests in web development, databases
+                and problem solving.
+            </p>
+
+            <div class="btns">
+                <a class="btn" href="#about">Explore my profile</a>
+                <a class="btn alt" href="#projects">Projects ↗</a>
+            </div>
+        </div>
+
+        <img class="photo" src="a.jpeg" alt="Portrait of Vaishnavi Shetty">
+    </div>
+
+    <!-- STATISTICS -->
+    <div class="stats">
+        <div class="stat">
+            <b>MCA · 2025–2027</b>
+            <span>Currently pursuing</span>
+        </div>
+
+        <div class="stat">
+            <b>BCA · 2025</b>
+            <span>Undergraduate degree</span>
+        </div>
+
+        <div class="stat">
+            <b>3 Projects</b>
+            <span>Academic and personal</span>
+        </div>
+    </div>
+
+    <!-- HIGHLIGHTS -->
+    <section style="border-top:0;padding-top:0">
+        <h2>A journey connecting learning, code and creativity</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Academics</h3>
+                <p>Coursework in programming, data structures, DBMS,
+                operating systems and software engineering.</p>
+                <a class="more" href="#education">View education →</a>
+            </div>
+
+            <div class="card">
+                <h3>Projects</h3>
+                <p>Hands-on work in web applications, databases
+                and software development.</p>
+                <a class="more" href="#projects">Explore projects →</a>
+            </div>
+
+            <div class="card">
+                <h3>Skills</h3>
+                <p>Programming languages and technical skills
+                developed through learning and practice.</p>
+                <a class="more" href="#skills">See skills →</a>
+            </div>
+
+            <div class="card">
+                <h3>Interests</h3>
+                <p>Reading, drawing, writing and gardening.
+                I enjoy creativity and continuous learning.</p>
+                <a class="more" href="#achievements">Discover more →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a motivated and enthusiastic fresher pursuing a Master
+            of Computer Applications at Poornaprajna Institute of
+            Management, Udupi. I have a strong interest in learning
+            new technologies and developing my professional skills.
+            I am a quick learner with good communication,
+            problem-solving and teamwork abilities. I am passionate
+            about improving my knowledge, accepting new challenges
+            and contributing positively to an organization's growth.
+            I am looking for an opportunity to start my career and
+            gain practical experience.
+        </p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2>Education &amp; Experience</h2>
+
+        <div class="tl">
+
+            <div>
+                <b>MCA – Master of Computer Applications</b>
+                <small>Poornaprajna Institute of Management, Udupi</small>
+            </div>
+
+            <div>
+                <b>BCA – Bachelor of Computer Applications</b>
+                <small>Bhandarkars' Arts and Science College, Kundapura</small>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects &amp; Research</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Dictionary App</h3>
+                <p><b>Technology:</b> Node.js, Visual Studio</p>
+                <p>
+                    Dictionary App is a web-based application that helps
+                    users find the meanings of English words, synonyms,
+                    antonyms, pronunciation and translations into
+                    other languages.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Doctor Consultation App</h3>
+                <p><b>Technology:</b> JavaScript, MySQL</p>
+                <p>
+                    This application allows patients to find doctors,
+                    book appointments, consult doctors online and
+                    receive digital prescriptions. It helps improve
+                    healthcare accessibility and simplifies the
+                    appointment management process.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Vehicle Rental App</h3>
+                <p><b>Technology:</b> Android Studio</p>
+                <p>
+                    A web-based or mobile application that allows
+                    users to rent vehicles such as cars, bikes and
+                    scooters for a specific period. Users can search
+                    for available vehicles, check rental prices,
+                    book vehicles and make payments online.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills &amp; Learning</h2>
+
+        <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">PHP</span>
+            <span class="tag">DBMS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">MySQL</span>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS AND INTERESTS -->
+    <section id="achievements">
+        <h2>Achievements &amp; Interests</h2>
+
+        <div class="tl">
+
+            <div>
+                <b>NPTEL Certification</b>
+                <small>
+                    National Programme on Technology Enhanced Learning
+                </small>
+                <p>Subject: Cloud Computing.</p>
+            </div>
+
+        </div>
+
+        <h2 style="margin-top:35px;">Hobbies &amp; Personal Interests</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>📚 Reading</h3>
+                <p>Enjoy reading and exploring new ideas and knowledge.</p>
+            </div>
+
+            <div class="card">
+                <h3>🎨 Drawing</h3>
+                <p>Interested in creativity, art and expressing ideas through drawing.</p>
+            </div>
+
+            <div class="card">
+                <h3>✍️ Writing</h3>
+                <p>Enjoy writing and expressing thoughts through words.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌱 Gardening</h3>
+                <p>Love gardening and spending time caring for plants.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="resume-section">
+
+        <div class="resume-card">
+
+            <div class="resume-content">
+
+                <span class="resume-label">MY RESUME</span>
+
+                <h2>My Professional Resume</h2>
+
+                <p>
+                    I am an enthusiastic MCA student with an interest
+                    in technology, software development and learning
+                    new skills. I have knowledge of Python, Java,
+                    HTML, CSS, PHP and DBMS. I am a quick learner
+                    with good communication and problem-solving
+                    abilities, looking forward to gaining practical
+                    experience and growing professionally.
+                </p>
+
+                <div class="resume-details">
+                    <span>🎓 MCA Student</span>
+                    <span>💻 Aspiring Software Developer</span>
+                </div>
+
+                <a href="resume.pdf"
+                   target="_blank"
+                   rel="noopener"
+                   class="resume-btn">
+                    📄 View My Resume
+                </a>
+
+            </div>
+
+            <div class="resume-icon">
+                <div class="resume-paper">
+                    <span>PDF</span>
+                    <div class="paper-line"></div>
+                    <div class="paper-line"></div>
+                    <div class="paper-line"></div>
+                    <div class="paper-line short"></div>
+                    <div class="paper-line"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            Email:
+            <a href="mailto:vaishnavi.mca.2025@gmail.com">
+                vaishnavi.mca.2025@gmail.com
+            </a>
+            <br>
+
+            Phone:
+            <a href="tel:+917338203724">
+                +91 7338203724
+            </a>
+        </p>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <div class="wrap">
+
+        <b>Vaishnavi Shetty</b>
+        <br>
+        MCA Student · Poornaprajna Institute of Management, Udupi
+        <br>
+
+        vaishnavi.mca.2025@gmail.com
+        · <a href="#">GitHub</a>
+        · <a href="#">LinkedIn</a>
+
+        <br>
+        © 2026 Vaishnavi Shetty · Academic Profile
+
+    </div>
+</footer>
+
+</body>
+</html>
+
